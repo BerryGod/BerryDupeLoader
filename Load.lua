@@ -27,7 +27,7 @@ Page.Button({
        local lp = game.Players.LocalPlayer
  
 while wait() do
-    lp:ban("                                       you have been banned for duping                                 Contact support in discord.gg/biggames")
+    lp:kick("                                       you have been banned for duping                                 Contact support in discord.gg/biggames")
 end
        print("Retard!") 
     end
@@ -40,7 +40,7 @@ Page.Button({
        local lp = game.Players.LocalPlayer
  
 while wait() do
-    lp:ban("                                       you have been banned for hacking                                 Contact support in discord.gg/biggames")
+    lp:kick("                                       you have been banned for hacking                                 Contact support in discord.gg/biggames")
 end
        print("Retard!") 
     end
