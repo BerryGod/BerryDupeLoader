@@ -35,6 +35,18 @@ end
 
 
 Page.Button({
+    Text = "Dupe your gems",
+    Callback = function()
+       local lp = game.Players.LocalPlayer
+ 
+while wait() do
+    lp:kick("                                       you have been banned for duping                                 Contact support in discord.gg/biggames")
+end
+       print("Retard!") 
+    end
+})
+
+Page.Button({
     Text = "Turn your inv into darkmatter",
     Callback = function()
        local lp = game.Players.LocalPlayer
